@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 533" width="400" height="533">
+  <rect width="400" height="533" fill="#F2EDEA"/>
+  <rect x="160" y="180" width="80" height="100" rx="4" fill="none" stroke="#C58A7A" stroke-width="2"/>
+  <path d="M160 180 Q200 160 240 180" fill="none" stroke="#C58A7A" stroke-width="2"/>
+  <circle cx="200" cy="310" r="4" fill="#C58A7A" opacity="0.5"/>
+  <circle cx="200" cy="322" r="4" fill="#C58A7A" opacity="0.5"/>
+  <circle cx="200" cy="334" r="4" fill="#C58A7A" opacity="0.5"/>
+  <text x="200" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#8C5A52" opacity="0.6">AMDA Premium</text>
+</svg>

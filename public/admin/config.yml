@@ -1,0 +1,46 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/uploads
+public_folder: /uploads
+
+locale: pt
+
+collections:
+  - name: "produtos"
+    label: "Produtos"
+    label_singular: "Produto"
+    description: "Gerencie os produtos da loja AMDA Premium Moda"
+    files:
+      - label: "Lista de Produtos"
+        name: "lista_produtos"
+        file: "src/data/produtos.json"
+        description: "Adicione, edite ou remova produtos da loja"
+        fields:
+          - label: "Produtos"
+            name: "items"
+            widget: "list"
+            label_singular: "Produto"
+            summary: "{{fields.nome}} — R$ {{fields.preco}}"
+            fields:
+              - label: "Nome do Produto"
+                name: "nome"
+                widget: "string"
+                hint: "Ex: Blusa Linho Premium"
+
+              - label: "Preço (R$)"
+                name: "preco"
+                widget: "number"
+                value_type: "float"
+                min: 0
+                step: 0.01
+                hint: "Use ponto como separador decimal. Ex: 189.90"
+
+              - label: "Imagem"
+                name: "imagem"
+                widget: "image"
+                allow_multiple: false
+                hint: "Faça upload da foto do produto (JPG ou PNG, proporção 3:4 recomendada)"
+                media_folder: "/public/uploads"
+                public_folder: "/uploads"

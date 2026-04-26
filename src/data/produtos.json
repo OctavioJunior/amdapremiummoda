@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "nome": "Blusa Linho Premium",
+      "preco": 189.90,
+      "imagem": "/uploads/blusa-linho.jpg"
+    },
+    {
+      "nome": "Calça Alfaiataria Rose",
+      "preco": 259.90,
+      "imagem": "/uploads/calca-alfaiataria.jpg"
+    },
+    {
+      "nome": "Vestido Midi Elegance",
+      "preco": 329.90,
+      "imagem": "/uploads/vestido-midi.jpg"
+    },
+    {
+      "nome": "Blazer Estruturado",
+      "preco": 399.90,
+      "imagem": "/uploads/blazer.jpg"
+    },
+    {
+      "nome": "Bolsa Couro Vegano",
+      "preco": 219.90,
+      "imagem": "/uploads/bolsa.jpg"
+    },
+    {
+      "nome": "Colar Delicado Dourado",
+      "preco": 89.90,
+      "imagem": "/uploads/colar.jpg"
+    }
+  ]
+}
