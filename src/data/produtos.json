@@ -2,33 +2,38 @@
   "items": [
     {
       "nome": "Blusa Linho Premium",
-      "preco": 189.90,
+      "preco": 189.9,
       "imagem": "/uploads/blusa-linho.jpg"
     },
     {
       "nome": "Calça Alfaiataria Rose",
-      "preco": 259.90,
+      "preco": 259.9,
       "imagem": "/uploads/calca-alfaiataria.jpg"
     },
     {
       "nome": "Vestido Midi Elegance",
-      "preco": 329.90,
+      "preco": 329.9,
       "imagem": "/uploads/vestido-midi.jpg"
     },
     {
       "nome": "Blazer Estruturado",
-      "preco": 399.90,
+      "preco": 399.9,
       "imagem": "/uploads/blazer.jpg"
     },
     {
       "nome": "Bolsa Couro Vegano",
-      "preco": 219.90,
+      "preco": 219.9,
       "imagem": "/uploads/bolsa.jpg"
     },
     {
       "nome": "Colar Delicado Dourado",
-      "preco": 89.90,
+      "preco": 89.9,
       "imagem": "/uploads/colar.jpg"
+    },
+    {
+      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fluxpersonalizacao.com.br%2Fwp-content%2Fuploads%2F2022%2F02%2Fcamisa-sublimacao-poliester.png&f=1&nofb=1&ipt=d440cdc6cd3f15b5783bd6ab841e626a9c9fe799d209cf8e9a9d457ff2388eee",
+      "nome": "teste",
+      "preco": 29.97
     }
   ]
 }
